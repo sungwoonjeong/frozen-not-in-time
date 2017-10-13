@@ -4,5 +4,19 @@ html {
 
 .banner {
   background: repeating-linear-gradient(147deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px);
-  width: 100%
+  width: 100%;
+}
+
+.intro h1 {
+  transform-origin: left center;
+  transform: translate(-1.8% , 130%) rotate(-10deg);
+  color: #990073;
+  font-size: 3.7em;
+}
+
+.intro p {
+  transform-origin: left center;
+  transform: translate(0% , 75%)  rotate(-5deg);
+  color: #c09;
+  max-width: 19em;
 }
