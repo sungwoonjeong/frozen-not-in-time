@@ -1,5 +1,8 @@
 html {
-
   font-family: "Fredoka One", sans-serif;
+}
 
+.banner {
+  background: repeating-linear-gradient(147deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px);
+  width: 100%
 }
