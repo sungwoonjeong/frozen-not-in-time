@@ -20,3 +20,9 @@ html {
   color: #c09;
   max-width: 19em;
 }
+
+.btn {
+  color: #c09;
+  border-color: #990073;
+  transform: translatey(100%);
+}
