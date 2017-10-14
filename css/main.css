@@ -48,6 +48,7 @@ html {
 
 .icecream {
   position: relative;
+
 }
 
 .cherry {
@@ -56,6 +57,7 @@ html {
   top: 4%;
   left: 20%;
   width: 50px;
+  animation: slide-in-cherry 900ms ease-out forwards;
 }
 
 .vanilla-fudge {
@@ -64,6 +66,7 @@ html {
   top: 14%;
   left: 3%;
   width: 130px;
+  animation: slide-in-vanilla 800ms ease-out forwards;
 }
 
 .chocolate-chip {
@@ -72,6 +75,7 @@ html {
   top: 29%;
   left: 6%;
   width: 130px;
+  animation: slide-in-choco 700ms ease-out forwards;
 }
 
 .mint-chip {
@@ -80,6 +84,7 @@ html {
   top: 46%;
   left: 4%;
   width: 135px;
+  animation: slide-in-mint 600ms ease-out forwards;
 }
 
 .cone {
@@ -88,6 +93,7 @@ html {
   top: 65%;
   left: 8%;
   width: 120px;
+  animation: slide-in-cone 500ms ease-out forwards;
 }
 
 @media only screen and (min-width: 90em) {
@@ -112,6 +118,71 @@ html {
 
   100% {
     filter: opacity(100%);
+  }
+
+}
+
+@keyframes slide-in-cone {
+
+  0% {
+    transform: translate(0%, -500%);
+  }
+
+  100% {
+    top: 65%;
+    left: 8%;
+  }
+
+}
+
+@keyframes slide-in-mint {
+
+  0% {
+    transform: translate(0%, -500%);
+  }
+
+  100% {
+    top: 46%;
+    left: 4%;
+  }
+
+}
+
+@keyframes slide-in-choco {
+
+  0% {
+    transform: translate(0%, -500%);
+  }
+
+  100% {
+    top: 29%;
+    left: 6%;
+  }
+
+}
+
+@keyframes slide-in-vanilla {
+
+  0% {
+    transform: translate(0%, -500%);
+  }
+
+  100% {
+    top: 14%;
+    left: 3%;
+  }
+
+}
+
+@keyframes slide-in-cherry {
+
+  0% {
+    transform: translate(0%, -500%);
+  }
+
+  100% {
+    top: 4%;
+    left: 20%;
   }
 
 }
