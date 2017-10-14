@@ -26,15 +26,23 @@ html {
   transform: rotate(-5deg);
   color: #c09;
   max-width: 19em;
-  text-shadow: -1px 1px 2px rgba(0 ,0 ,0 , .4), 1px 1px 2px rgba(0, 0, 0, .4);
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, .4), 1px 1px 2px rgba(0, 0, 0, .4);
 }
 
 .btn {
   position: absolute;
-  top: 52%;
+  top: 64%;
+}
+
+.btn-ghost {
   color: #c09;
   border-color: #990073;
-  transform: translateY(100%);
+}
+
+.btn-ghost:hover {
+  color: #c09;
+  border-color: #990073;
+  background-color: #b3fbff;
 }
 
 .icecream {
