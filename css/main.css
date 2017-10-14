@@ -9,6 +9,7 @@ html {
 
 .intro {
   position: relative;
+  animation: pop-up 2s ease-out forwards;
 }
 
 .intro h1 {
@@ -93,6 +94,24 @@ html {
 
   .intro {
     text-align: center;
+  }
+
+}
+
+@keyframes pop-up {
+
+  0% {
+    filter: blur(7px);
+    filter: opacity(0%);
+  }
+
+  50% {
+    filter: blur(7px);
+    filter: opacity(50%);
+  }
+
+  100% {
+    filter: opacity(100%);
   }
 
 }
